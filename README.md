@@ -4,6 +4,7 @@ Library Management System built on react.
 PROBLEM STATEMENT
 Prototype and Design a User Interface of a Library Management System. The UI shall
 have following features:
+
 1. User Authentication Screen (Login screen only)
 2. Search Books Screen with sort and filter options.
 3. Show My Books
@@ -18,15 +19,20 @@ Remember, Google and Stack Overflow are your friends.
 All the best!
 
 Guidelines
+
   ● There are multiple screens in the app.
+  
     ○ Each screen should have a navigation bar and show a brand name and
     icon.
+    
     ○ All screens should have a consistent layout.
+    
     ○ Use mock data to show the screens.
     Screens
     
 You need to create the following screens (screen names are denoted in
 green):
+
   ● User Authentication Screen:
     ○ Login
     The Login screen shall have a username, a password
