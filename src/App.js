@@ -21,7 +21,7 @@ function App() {
                 <Route path='/MyBooks' exact component={MyBooks}/>
                 <Route path='/EditProfile' exact component={EditProfile}/>
                 <Route path='/Profile' exact component={Profile}/>
-                <Route path='/LendBook' exact component={LendBook}/>
+                <Route path='/LendBook:id' exact component={LendBook}/>
                 <Route path='/Wallet' exact component={Wallet}/>
                 <Route path='/Search' exact component={SearchBooks}/>
              </Switch>

@@ -1,7 +1,6 @@
 import React from 'react';
 import './SearchBooks.css';
 import BooksCard from '../BooksCard';
-import { Link } from 'react-router-dom';
 
 
 function MyBooks() {

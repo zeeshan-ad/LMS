@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLocation } from "react-router-dom";
 import {BookDetails} from "./BookDetails";
+import {Link} from "react-router-dom";
 import './Book.css';
 
 function Book() {
@@ -20,7 +21,7 @@ function Book() {
             <p>Pages: {book.pages}</p>
             <p>ISBN: {book.isbn}</p>
             </div>
-            <button type="submit">Rent Book</button>
+            <Link to={"./LendBook.js?id=" + book.id}><button type="submit">Rent Book</button></Link>
             </div>
         </div>
     )
