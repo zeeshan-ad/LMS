@@ -1,0 +1,39 @@
+.containerSearch form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.containerSearch input[type="text"]{
+    margin-top: 30px;
+    width:70%;
+    height: 40px;
+    padding: 10px;
+}
+.containerSearch button{
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 40px;
+    width: 80px;
+}
+
+.DisplayBooks{
+    height: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+.EmptyBooks{
+        margin-top: 100px;
+        text-align: center;
+        color: #d0d0d0;
+}
+.Bars{
+    text-align: center;
+    margin-top: 30px ;
+    color: #6d76f7;
+    font-size: .9em;
+}
+.Bars div{
+    display: inline;
+    cursor: pointer;
+    padding: 0 10px;
+}

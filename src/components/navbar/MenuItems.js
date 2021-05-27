@@ -1,29 +1,29 @@
 export const MenuItems = [
     {
         title: 'Login',
-        url: '/src/components/Login.js',
+        url: '/',
         cName: 'nav-links'
     },
     {
         title: 'Search',
-        url: 'Search',
+        url: '/Search',
         cName: 'nav-links'
     },
     {
         title: 'My Books',
-        url: 'MyBooks',
+        url: '/MyBooks',
         cName: 'nav-links'
     },
-    {
-        title: 'Book',
-        url: 'Book',
-        cName: 'nav-links'
-    },
-    {
-        title: 'Lend Book',
-        url: 'LendBook',
-        cName: 'nav-links'
-    },
+    // {
+    //     title: 'Book',
+    //     url: '/Book',
+    //     cName: 'nav-links'
+    // },
+    // {
+    //     title: 'Lend Book',
+    //     url: 'LendBook',
+    //     cName: 'nav-links'
+    // },
     {
         title: 'Wallet',
         url: 'Wallet',
